@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.7),
+      rgba(0,0,0,0.8)),url("img/bg2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    height: 30px;
+    margin-top: 18px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;    
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.peque{
+    margin: 10px;
+    width: 20%;
+}
+
+.titulo{
+
+      display: block;
+      margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      width: 50%;
+}
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.form-control:focus {
+    border-color: white !important;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.55) !important;
+} 
+
+.btn:hover{
+    color: golden !important;
+}

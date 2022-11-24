@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap4 Landing01</title>
+
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="row">
+            <!-- Logotipo -->
+            <!-- my es margin en el eje y -->
+            <div class="col-sm-12 my-4">
+                <!-- Cambiar aquí la imagen del logo -->
+                <a href="index.html mt-4">
+                     <img src="img/logo.png" class="logo">
+                </a>
+
+                <!--Título principal -->
+                <img src="img/logo2.png" class="titulo">
+                <!-- <h1 class="text-center display-3 font-weight-bold mt-4" style="font-family: 'Raleway', sans-serif; ">Gossip girl</h1> -->
+            </div>
+
+            <!-- Parte de abajo del título -->
+            <!-- Imagen del cast -->
+            <div class="col-sm-6">
+                <img src="img/port.jpg" class="img-fluid">
+            </div>
+
+            <!-- Aquí poner el texto de chica indiscreta -->
+
+            <div class="col-sm-6 text-center">
+                <p class="text-center text-description" style="font-family: 'Lora', serif;">Who am I?<br>
+                That's one secret I'll never tell.<br>
+                You know you love me.
+                <br>
+                    <img src="img/xoxo.png" class="peque">
+                <br>
+                Gossip Girl
+                <hr/>
+                <p class="text-center text-description" style="font-family: 'Lora', serif; font-weight: bold;">
+                Keep up with the gossip!
+                </p>
+                <form action="index.html">
+                    <input class="form-control rounded-0 my-4 text-center" type="email" name="Write your Email"
+                        placeholder="Enter your email">
+                    <button type="submit" class="btn btn-light btn-outline rounded-0">
+                        SUBSCRIBE
+                    </button>
+                </form>
+
+                <!-- Iconos de fb, insta y asi -->
+                <!-- la clase list-inline-item ayuda a que salga en una línea -->
+                        <ul class="list-unstyled list-inline mt-4">
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
